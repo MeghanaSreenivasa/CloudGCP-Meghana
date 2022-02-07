@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>COVID-19 Survey form</title>
+    <style>
+    body { margin: 2px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: url("https://miro.medium.com/focal/1200/900/41/72/1*CM8dHQKZ_ONFTAboaxywZg.jpeg"); background-repeat: no-repeat; background-position: center; background-size: cover; height: 100%; }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.8);
+            box-sizing: border-box;
+            box-shadow: 0 16px 26px rgba(0, 0, 0, 0.5);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+            .container h2 {
+                color: #fff000;
+                font-family: cursive;
+                font-size: 2.3rem;
+                font-weight: 300;
+            }
+
+        input {
+            width: 70%;
+            padding: 0.8rem;
+            border-radius: 20px;
+            border: none;
+        }
+
+        button {
+            width: 20%;
+            padding: 0.6rem;
+            background-color: chocolate;
+            border: none;
+            color: black;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+            button:hover {
+                background-color: teal;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>COVID-19 Survey form</h2>
+        <form action="">
+            <input type="text" placeholder="First Name"><br><br>
+            <input type="text" placeholder="Last Name"><br><br>
+            <input type="number" placeholder="Phone Number"><br><br>
+            <input type="email" placeholder="Email address"><br><br>
+            <input type="text" placeholder="College"><br><br>
+            <input type="text" placeholder="Health status"><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
